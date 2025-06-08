@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart - Rubanicwomen | Ecommerce Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+       <div class="container">
+          <div class="navbar">
+              <div class="logo">
+                  <a href="index.html"><img src="images/logo2.png" width="125px"></a>
+              </div>
+              <nav>
+               <ul id="MenuItems">
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="products.html">Products</a></li>
+                   <li><a href="about.html">About</a></li>
+                   <li><a href="contact.html">Contact</a></li>
+                   <li><a href="account.html">Account</a></li>
+               </ul>
+              </nav>
+              <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+              <img src="images/menu.png" onclick="menutoggle()" class="menu-icon">
+          </div>
+          
+       </div>
+       
+       
+<!-------------about--------------->
+<center><p><i>At handmadeheaven.com, we believe the world would be a much more beautiful place if every individual felt beautiful and confident.<br>
+We try to do our part by making the most amazing designs available at the most affordable prices to as many people as possible.<br>
+After all, what better purpose can there be to life than to spread happiness and what better way to spread happiness than bringing a smile on your face,<br>
+every time you look at yourself in the mirror wearing an amazing Everstylish Design.<br>
+Our hope is that you keep loving us the way you do and keep spreading the word about us to all your friends and family,<br>
+    so that we can be more successful in making our vision become a reality.</i></p></center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    
+
+    
+<!----------Footer---------------> 
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col1">
+               <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col2">
+               <img src="images/logo2.png">
+                <p>We treasure handmade accesories not only for their aesthetic but also for their meticulou craftsmanship</p>
+            </div>
+            <div class="footer-col3">
+               <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col4">
+               <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter<li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        
+    </div>
+    
+</div>
+
+
+
+<!-------------js for toggle menu-------------->
+
+<script>
+    
+    var MenuItems = document.getElementById("MenuItems");
+    
+    MenuItems.style.maxHeight = "0px";
+    
+    function menutoggle()
+    {
+        if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }else
+            {
+                MenuItems.style.maxHeight = "0px"
+            } 
+    }
+    
+    
+</script>
+
+
+
+</body>
+</html>
